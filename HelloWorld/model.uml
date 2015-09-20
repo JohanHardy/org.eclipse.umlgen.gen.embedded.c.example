@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:embedded_C="http://www.spacebel.com/1.0.0/embedded_C" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.spacebel.com/1.0.0/embedded_C pathmap://UMLGEN_PROFILES/Embedded_C/embedded_C.profile.uml#_2htC4AqWEeWYB_j0d7Rmhw">
+  <uml:Model xmi:id="_M6zFsEvbEeWvKIEEkSkHGQ" name="model">
+    <packagedElement xmi:type="uml:Package" xmi:id="_WnoXYEvbEeWvKIEEkSkHGQ" name="HelloWorld">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_G6i-AEvcEeWvKIEEkSkHGQ">
+        <body>This application encloses the main class that displays the string HelloWorld via the operation main.</body>
+      </ownedComment>
+      <packagedElement xmi:type="uml:Class" xmi:id="_asbpkEvbEeWvKIEEkSkHGQ" name="main">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_Y97OcEvdEeWvKIEEkSkHGQ" annotatedElement="_asbpkEvbEeWvKIEEkSkHGQ">
+          <body>This object is the main module of the application.</body>
+        </ownedComment>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_mbSdYEvbEeWvKIEEkSkHGQ" name="main">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_bMCr0EvdEeWvKIEEkSkHGQ" annotatedElement="_mbSdYEvbEeWvKIEEkSkHGQ">
+            <body>This is the entry point of my application.</body>
+          </ownedComment>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_tGEd4EvcEeWvKIEEkSkHGQ" name="argc">
+            <ownedComment xmi:type="uml:Comment" xmi:id="_6kX2EEvcEeWvKIEEkSkHGQ" annotatedElement="_tGEd4EvcEeWvKIEEkSkHGQ">
+              <body>The number of arguments in argv.</body>
+            </ownedComment>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UMLGEN_PROFILES/Embedded_C/embedded_C.profile.uml#_TLJz8P3OEeKacbbsUeqjMA"/>
+          </ownedParameter>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ty2rYEvcEeWvKIEEkSkHGQ" name="argv">
+            <ownedComment xmi:type="uml:Comment" xmi:id="_9qPa0EvcEeWvKIEEkSkHGQ" annotatedElement="_ty2rYEvcEeWvKIEEkSkHGQ">
+              <body>The arguments.</body>
+            </ownedComment>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UMLGEN_PROFILES/Embedded_C/embedded_C.profile.uml#_TLJz8P3OEeKacbbsUeqjMA"/>
+          </ownedParameter>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_vDo90EvcEeWvKIEEkSkHGQ" name="return" direction="return">
+            <ownedComment xmi:type="uml:Comment" xmi:id="_-pBXQEvcEeWvKIEEkSkHGQ" annotatedElement="_vDo90EvcEeWvKIEEkSkHGQ">
+              <body>The error code.</body>
+            </ownedComment>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UMLGEN_PROFILES/Embedded_C/embedded_C.profile.uml#_PoHyEP3OEeKacbbsUeqjMA"/>
+          </ownedParameter>
+        </ownedOperation>
+        <nestedClassifier xmi:type="uml:UseCase" xmi:id="_crJ4sEveEeWvKIEEkSkHGQ" name="MySpecification">
+          <ownedRule xmi:type="uml:Constraint" xmi:id="_t5d-0EveEeWvKIEEkSkHGQ" name="SPEC-REQ-001" constrainedElement="_mbSdYEvbEeWvKIEEkSkHGQ">
+            <specification xmi:type="uml:LiteralString" xmi:id="_t5d-0UveEeWvKIEEkSkHGQ" name="constraintSpec" value="The main function shall display the string 'Hello World'."/>
+          </ownedRule>
+        </nestedClassifier>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_ORPVS0vbEeWvKIEEkSkHGQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ORYeIUvbEeWvKIEEkSkHGQ" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ORYeIkvbEeWvKIEEkSkHGQ" key="Version" value="1.0.0"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ORYeI0vbEeWvKIEEkSkHGQ" key="Comment" value="First version of UML profile Embedded C"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ORYeJEvbEeWvKIEEkSkHGQ" key="Copyright" value="Spacebel SA"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ORYeJUvbEeWvKIEEkSkHGQ" key="Date" value="2015-06-04"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ORYeJkvbEeWvKIEEkSkHGQ" key="Author" value="Johan Hardy"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ORYeIEvbEeWvKIEEkSkHGQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLGEN_PROFILES/Embedded_C/embedded_C.profile.uml#_2htC4AqWEeWYB_j0d7Rmhw"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://UMLGEN_PROFILES/Embedded_C/embedded_C.profile.uml#_KMczkP3OEeKacbbsUeqjMA"/>
+    </profileApplication>
+  </uml:Model>
+  <embedded_C:Object xmi:id="_fN-FoEvcEeWvKIEEkSkHGQ" base_Class="_asbpkEvbEeWvKIEEkSkHGQ"/>
+  <embedded_C:Requirement xmi:id="_yT7_AEveEeWvKIEEkSkHGQ" base_Constraint="_t5d-0EveEeWvKIEEkSkHGQ"/>
+  <embedded_C:Pointer xmi:id="_skvyIEvfEeWvKIEEkSkHGQ" base_TypedElement="_ty2rYEvcEeWvKIEEkSkHGQ" Pointer="Double"/>
+</xmi:XMI>
