@@ -21,7 +21,6 @@
 /* Dependency with parent package */
 #include "HelloWorld/HelloWorld.h"
 
-
 /**********************************************************************************
  * HelloWorld/main.h
  **********************************************************************************/
@@ -37,12 +36,6 @@
  */
 
 /*## class TopLevel::main */
-
-
-
-
-
-
 
 
 
@@ -66,8 +59,8 @@
  * <b>Function detailed processing extracted from source code</b>
  *
  ********************************************************************************************/
-/*## operation main(char argc, char ** argv) */
-int main(char argc, char ** argv);
+/*## operation main(char argc, char** argv) */
+int main(char argc, char** argv);
 
 #endif
 

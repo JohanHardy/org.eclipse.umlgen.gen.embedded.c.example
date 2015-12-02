@@ -18,7 +18,6 @@
 /* Dependency with own header */
 #include "HelloWorld/main.h"
 
-
 /**********************************************************************************
  * HelloWorld/main.c
  **********************************************************************************/
@@ -27,20 +26,11 @@
 
 /*## class TopLevel::main */
 
-
-
-
-
-
-
-
-
-
-
-/*## operation main(char argc, char ** argv) */
-int main(char argc, char ** argv)
+/*## operation main(char argc, char** argv) */
+int main(char argc, char** argv)
 {
     /* Start of user code for main */
+    printf("Hello World!");
     /* End of user code for main */
 }
 
